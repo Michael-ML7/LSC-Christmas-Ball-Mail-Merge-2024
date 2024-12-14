@@ -8,7 +8,7 @@ from mail_merge_body_internal import email_body_internal
 
 subject = "[Ticket Confirmation and Payment] Carpe Noctem - La Salle College Christmas Ball 2024"
 sender = "lasallechristmasball2024@gmail.com"
-password = "lpvd nlgk znkg iknx"
+password = ""
 
 def send_email(subject, sender_email, recipient_email, password, recipient_name, recipient_ticket_type, recipient_price, souven):
     body = email_body(recipient_name, recipient_ticket_type, recipient_price, souven)
@@ -78,11 +78,3 @@ for i in range(1, 353):
         # send_email_internal(subject, sender, student_email, password, ws[f'F{i}'].value, ticket_type, price)
 
 # case handling
-# send_email(subject, sender, "s20406@lsc.hk", password, "Michael Lam", "Package for 6 ladies", "$900", False)
-# send_email(subject, sender, "s19294@lsc.hk", password, "Daniel Wong 6B", "Package for 6 ladies", "$900", False)
-# send_email(subject, sender, "s19294@lsc.hk", password, "Daniel Wong 6B", "Package for 6 ladies", "$900", False)
-# send_email(subject, sender, "tszyincheung88@gmail.com", password, "Cheung Tsz Yin", "Lady ticket (1 only)", "$200", False)
-# send_email(subject, sender, "cchiu.0501@gmail.com", password, "Chiu Chrissy", "Package for 4 ladies", "$640", False)
-# send_email_internal(subject, sender, "sisyphusprometheus@gmail.com", password, "Cheung Chun Lok", "Gentleman ticket (1 only)", "$200")
-# send_email_internal(subject, sender, "s20175@lsc.hk", password, "OWW MY GAWDDDDD BREDNAN 😍😘❤", "Couple tickets ❤❤", "$340 ❤❤❤❤❤❤❤❤❤")
-# send_email_internal(subject, sender, "s20406@lsc.hk", password, "Michael Lam", "Gentleman ticket (1 only)", "$200")
