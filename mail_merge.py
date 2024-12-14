@@ -7,7 +7,7 @@ from mail_merge_body import email_body
 from mail_merge_body_internal import email_body_internal
 
 subject = "[Ticket Confirmation and Payment] Carpe Noctem - La Salle College Christmas Ball 2024"
-sender = "lasallechristmasball2024@gmail.com"
+sender = ""
 password = ""
 
 def send_email(subject, sender_email, recipient_email, password, recipient_name, recipient_ticket_type, recipient_price, souven):
